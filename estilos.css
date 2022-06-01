@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+body {
+    color: black;
+    overflow-wrap: break-word;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+section.module.parallax h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh !important;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+section.module.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(250, 249, 249, 0.329) 0px, rgba(250, 249, 249, 0.329) 40%, rgb(250, 249, 249, 0.329) 100%)
+}
+section.module.parallax-1{
+    background-color: black;
+}
+section.module.parallax-1{
+    background-image: url(https://static.rentcars.com/imagens/modules/localidade/about/983-desktop-location-description.png);
+}
+
+section.module.parallax-2{
+    background-image: url(https://i0.wp.com/multarte.com.br/wp-content/uploads/2015/08/imagens-amor.jpg?fit=1680%2C1050&ssl=1);
+}
+
+section.module.parallax-3{
+    background-image: url(https://conteudo.imguol.com.br/c/noticias/1c/2022/05/24/imagem-criada-no-imagen-prototipo-do-google-que-cria-imagens-baseadas-em-texto-neste-caso-um-cachorro-corgi-andando-de-bicicleta-na-times-square-usando-oculos-de-sol-e-chapeu-de-praia-1653397634334_v2_900x506.jpg);
+}
+
+section.module.parallax-4{
+    background-image: url(https://static.rentcars.com/imagens/modules/localidade/about/983-desktop-location-description.png);
+}
+
+section.module.content {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 40px 0px;
+    background: rgb(236, 231, 213);
+    align-content:stretch;
+
+}
