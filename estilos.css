@@ -1,11 +1,15 @@
-*{
+@import url('https://fonts.googleapis.com/css2? family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 & family= Justo & display=trocar');
+@import url('https://fonts.googleapis.com/css2? family= Dosis:wght@200;300 & family= Righteous & display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-.wrapper{
+.wrapper {
     width: 100%;
     margin: 0 auto;
 
@@ -17,7 +21,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
- 
+
 section.module.parallax h1 {
     color: aliceblue;
     text-align: center;
@@ -28,7 +32,7 @@ section.module.parallax h1 {
 
 section.module.parallax {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     width: 100%;
     position: relative;
@@ -45,33 +49,72 @@ section.module.parallax::after {
     height: 100%;
     width: 100%;
     position: absolute;
-    background: linear-gradient(rgba(250, 249, 249, 0.329) 0px, rgba(250, 249, 249, 0.329) 40%, rgb(250, 249, 249, 0.329) 100%)
+    background: linear-gradient(rgba(250, 249, 249, 0.301) 0px, rgba(250, 249, 249, 0.301) 40%, rgb(250, 249, 249, 0.301) 100%)
 }
-section.module.parallax-1{
+
+section.module.parallax-1 {
     background-color: black;
-}
-section.module.parallax-1{
-    background-image: url(https://static.rentcars.com/imagens/modules/localidade/about/983-desktop-location-description.png);
+    min-height:100%
 }
 
-section.module.parallax-2{
-    background-image: url(https://i0.wp.com/multarte.com.br/wp-content/uploads/2015/08/imagens-amor.jpg?fit=1680%2C1050&ssl=1);
+section.module.parallax-1 {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
 }
 
-section.module.parallax-3{
-    background-image: url(https://conteudo.imguol.com.br/c/noticias/1c/2022/05/24/imagem-criada-no-imagen-prototipo-do-google-que-cria-imagens-baseadas-em-texto-neste-caso-um-cachorro-corgi-andando-de-bicicleta-na-times-square-usando-oculos-de-sol-e-chapeu-de-praia-1653397634334_v2_900x506.jpg);
+section.module.parallax-2 {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg);
+    min-height:400px
 }
 
-section.module.parallax-4{
-    background-image: url(https://static.rentcars.com/imagens/modules/localidade/about/983-desktop-location-description.png);
+section.module.parallax-3 {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg);
+    min-height:400px
+}
+
+section.module.parallax-4 {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
+    min-height:100%
 }
 
 section.module.content {
-    display: flex;
-    justify-content:center;
-    align-items:center;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    align-items: center;
     padding: 40px 0px;
-    background: rgb(236, 231, 213);
-    align-content:stretch;
+    align-content: stretch;
+    font-weight: 400;
+    line-height: 1.8em;
+    text-align: center;
+    background-color: #282e34;
+    color: #ddd;
+}
 
+section.module.content-1 {
+    background-color: #f4f4f4;
+    color: #666;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    align-content: stretch;
+    text-align: center;
+}
+
+.espaco {
+    height: 30px;
+}
+
+.border{
+    background-color: #111;
+    padding: 20px 0;
+    letter-spacing: 8px; 
+    display: inline-block;
+    align-items: center;
+    justify-content:center;
+    font-family:'Dosis', sem serifa;
+    background: linear-gradient(rgba(90, 90, 90, 0.774) 0px, rgba(90, 90, 90, 0.774) 40%, rgb(90, 90, 90, 0.774) 100%)
 }
